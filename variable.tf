@@ -20,7 +20,7 @@ variable "vpc-cidr-range" {
 variable "availability-zones" {
   type        = list(string)
   description = "Availablity zones"
-  default     = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
+  default     = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
 }
 
 

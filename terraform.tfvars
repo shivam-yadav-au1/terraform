@@ -2,6 +2,8 @@
 # enable_vpc_module = "false"
 # enable_eks_cluster = "false"
 # enable_s3_cloudfront = "false"
+access_key = "AKIAV3B3RIUBV3YYVZCY"
+secret_key = "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"
 ami_id_launch_template = "ami-0ded8326293d3201b"
 availability_zone      = "ap-south-1"
 cluster_name = "eks-cluster-tf"

@@ -52,6 +52,11 @@ resource "aws_eks_cluster" "eks-cluster" {
     name = "${var.cluster_name}"
   }
 
+  access_config {
+    authentication_mode = "API_AND_CONFIG_MAP"
+    bootstrap_cluster_creator_admin_permissions = true
+  }
+
 
 }
 
@@ -99,11 +104,7 @@ resource "aws_eks_node_group" "eks_node_group" {
   node_group_name = "eks_node_group"
   node_role_arn   = aws_iam_role.eks_node_group_role.arn
   subnet_ids      = flatten(["${aws_subnet.vpc-tf-public-subnets.*.id}"])
-  #instance_types  = ["t3.medium"]
-  launch_template {
-    id      = aws_launch_template.eks_cluster_tainted_worker_node_launch_config.id
-    version = aws_launch_template.eks_cluster_tainted_worker_node_launch_config.latest_version
-  }
+  instance_types  = ["t3.medium"]
 
   scaling_config {
     desired_size = 1
