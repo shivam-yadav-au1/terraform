@@ -1,0 +1,775 @@
+Launching language server: /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/bin/terraform-ls serve
+Client: Stopped --> Starting
+2024/03/24 11:11:21 serve_command.go:108: Starting terraform-ls 0.32.4
+2024/03/24 11:11:21 service.go:106: Preparing new session ...
+2024/03/24 11:11:21 langserver.go:102: Starting server (pid 85409; concurrency: 4) ...
+2024/03/24 11:11:21 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:11:21 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:11:21 rpc_logger.go:32: Incoming request for "initialize" (ID 0): {"processId":85344,"clientInfo":{"name":"Visual Studio Code","version":"1.80.2"},"locale":"en","rootPath":"/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts","rootUri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]},"resolveSupport":{"properties":["location.range"]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"didChangeConfiguration":{"dynamicRegistration":true},"workspaceFolders":true,"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true},"inlineValue":{"refreshSupport":true},"inlayHint":{"refreshSupport":true},"diagnostics":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true},"insertTextMode":2,"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":false},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-traversalStep","hcl-typeCapsule","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary","hcl-dependent","terraform-data","terraform-locals","terraform-module","terraform-output","terraform-provider","terraform-resource","terraform-provisioner","terraform-connection","terraform-variable","terraform-terraform","terraform-backend","terraform-name","terraform-type","terraform-requiredProviders"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false,"serverCancelSupport":true,"augmentsSyntaxTokens":true},"linkedEditingRange":{"dynamicRegistration":true},"typeHierarchy":{"dynamicRegistration":true},"inlineValue":{"dynamicRegistration":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]},"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"]},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}},"experimental":{"refreshModuleProvidersCommandId":"client.refreshModuleProviders","refreshModuleCallsCommandId":"client.refreshModuleCalls","telemetryVersion":1,"refreshTerraformVersionCommandId":"client.refreshTerraformVersion"}},"initializationOptions":{"validation":{"enableEnhancedValidation":true},"experimentalFeatures":{"validateOnSave":false,"prefillRequiredFields":false},"ignoreSingleFileWarning":false,"terraform":{"path":"","timeout":"","logFilePath":""},"indexing":{"ignorePaths":[],"ignoreDirectoryNames":[]}},"trace":"off","workspaceFolders":[{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts","name":"terraform-scripts"}],"workDoneToken":"afe6fb15-6228-46da-a2e0-e86f6eb4be60"}
+2024/03/24 11:11:21 initialize.go:185: enabling telemetry (version: 1)
+2024/03/24 11:11:21 initialize.go:190: telemetry enabled (version: 1)
+2024/03/24 11:11:21 scheduler.go:56: launching eval loop 0
+2024/03/24 11:11:21 service.go:482: started low priority scheduler
+2024/03/24 11:11:21 scheduler.go:56: launching eval loop 0
+2024/03/24 11:11:21 service.go:487: started high priority scheduler
+2024/03/24 11:11:21 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"initialize","properties":{"experimentalCapabilities.referenceCountCodeLens":false,"experimentalCapabilities.refreshModuleCalls":true,"experimentalCapabilities.refreshModuleProviders":true,"experimentalCapabilities.refreshTerraformVersion":true,"lsVersion":"0.32.4","options.commandPrefix":false,"options.excludeModulePaths":false,"options.experimentalFeatures.prefillRequiredFields":false,"options.experimentalFeatures.validateOnSave":false,"options.ignoreSingleFileWarning":false,"options.indexing.ignoreDirectoryNames":false,"options.indexing.ignorePaths":false,"options.rootModulePaths":false,"options.terraform.logFilePath":false,"options.terraform.path":false,"options.terraform.timeout":"","options.validation.earlyValidation":true,"root_uri":"dir"}}
+2024/03/24 11:11:21 walker_paths.go:255: walking next dir: {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 rpc_logger.go:53: Response to "initialize" (ID 0): {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","["],"resolveProvider":true},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"declarationProvider":true,"definitionProvider":true,"referencesProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["source.formatAll.terraform"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"executeCommandProvider":{"commands":["terraform-ls.module.callers","terraform-ls.module.calls","terraform-ls.module.providers","terraform-ls.module.terraform","terraform-ls.rootmodules","terraform-ls.terraform.init","terraform-ls.terraform.validate"],"workDoneProgress":true},"semanticTokensProvider":{"legend":{"tokenTypes":["enumMember","function","keyword","number","parameter","property","string","type","variable","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-traversalStep","hcl-typeCapsule","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["defaultLibrary","hcl-dependent","terraform-backend","terraform-connection","terraform-data","terraform-locals","terraform-module","terraform-name","terraform-output","terraform-provider","terraform-provisioner","terraform-requiredProviders","terraform-resource","terraform-terraform","terraform-type","terraform-variable"]},"full":true},"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"},"fileOperations":{}},"experimental":{"referenceCountCodeLens":false,"refreshModuleProviders":true,"refreshModuleCalls":true,"refreshTerraformVersion":true}},"serverInfo":{"name":"terraform-ls","version":"0.32.4"}}
+2024/03/24 11:11:21 opts.go:215: Completed 1 requests [2.645189ms elapsed]
+2024/03/24 11:11:21 walker.go:212: skipping ignored dir name: .git
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.0/linux_amd64} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform/providers/registry.terraform.io/hashicorp/aws/5.39.0} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform/providers/registry.terraform.io/hashicorp/aws} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform/providers/registry.terraform.io/hashicorp} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform/providers/registry.terraform.io} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform/providers} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform} finished
+2024/03/24 11:11:21 walker.go:218: found module {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts}
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "1": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "2": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "3": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "4": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:"/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/.terraform.lock.hcl"}
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "5": "OpTypeParseProviderVersions" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "6": "OpTypeObtainSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:321: JOBS: Dispatching next job "1" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "7": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "8": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:140: JOBS: Enqueueing new job "9": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Backups} finished
+Client: Starting --> Running
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Cache/Cache_Data/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Cache/Cache_Data} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Cache} finished
+Started client
+2024/03/24 11:11:21 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData/2ccd690cbff1569e4a83d7c43d45101f817401dc/chrome/js/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData/2ccd690cbff1569e4a83d7c43d45101f817401dc/chrome/js} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData/2ccd690cbff1569e4a83d7c43d45101f817401dc/chrome/wasm/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData/2ccd690cbff1569e4a83d7c43d45101f817401dc/chrome/wasm} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData/2ccd690cbff1569e4a83d7c43d45101f817401dc/chrome} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData/2ccd690cbff1569e4a83d7c43d45101f817401dc} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedData} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedProfilesData/__default__profile__} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/CachedProfilesData} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Code%20Cache/js/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Code%20Cache/js} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Code%20Cache/wasm/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Code%20Cache/wasm} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Code%20Cache} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Crashpad/attachments} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Crashpad/completed} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Crashpad/new} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Crashpad/pending} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Crashpad} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/DawnCache} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Dictionaries} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/GPUCache} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Local%20Storage/leveldb} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Local%20Storage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/CacheStorage/b1d50733be3573657c8e7185007956ce5ad52f93/f815db5c-0fd8-4d8b-9a28-4bde3a094221/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/CacheStorage/b1d50733be3573657c8e7185007956ce5ad52f93/f815db5c-0fd8-4d8b-9a28-4bde3a094221} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/CacheStorage/b1d50733be3573657c8e7185007956ce5ad52f93} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/CacheStorage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/Database} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/ScriptCache/index-dir} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker/ScriptCache} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Service%20Worker} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/Session%20Storage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/globalStorage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/snippets} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/workspaceStorage/1711258856610} finished
+2024/03/24 11:11:21 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/workspaceStorage/25d8305c0b6021d245b0113867d2bda8} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/workspaceStorage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User} finished
+2024/03/24 11:11:21 rpc_logger.go:32: Incoming notification for "initialized": {}
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/WebStorage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/blob_storage/b496e7b4-2c0c-4143-8dc9-37903077f459} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/blob_storage} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/databases} finished
+2024/03/24 11:11:21 opts.go:215: Posting server call "client/registerCapability" {"registrations":[{"id":"dc556407-7ae1-2e61-66d4-bda63d051252","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/.terraform","kind":3},{"globPattern":"**/.terraform/modules/modules.json"},{"globPattern":"**/.terraform.lock.hcl"},{"globPattern":"**/.terraform/plugins/selections.json"},{"globPattern":"**/.terraform/plugins/linux_amd64/lock.json"}]}}]}
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1/exthost/vscode.git} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1/exthost/vscode.github} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1/exthost/vscode.github-authentication} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1/exthost/vscode.microsoft-authentication} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1/exthost} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1/output_20240324T111057} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055/window1} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111055} finished
+2024/03/24 11:11:21 jobs.go:461: JOBS: Finishing job "1": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost/hashicorp.terraform} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost/output_logging_20240324T111118} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost/vscode.git} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost/vscode.github} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost/vscode.github-authentication} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost/vscode.microsoft-authentication} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/exthost} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1/output_20240324T111118} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117/window1} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs/20240324T111117} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/logs} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~} finished
+2024/03/24 11:11:21 walker.go:242: walking of {file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts} finished
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:321: JOBS: Dispatching next job "2" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 jobs.go:461: JOBS: Finishing job "2": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:21 jobs.go:321: JOBS: Dispatching next job "3" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 jobs.go:461: JOBS: Finishing job "3": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 walker.go:156: walker: walking through {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} finished
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:321: JOBS: Dispatching next job "4" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:461: JOBS: Finishing job "4": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:321: JOBS: Dispatching next job "5" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseProviderVersions" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 jobs.go:461: JOBS: Finishing job "5": "OpTypeParseProviderVersions" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:21 jobs.go:321: JOBS: Dispatching next job "6" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeObtainSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:21 opts.go:215: Received response for callback "1"
+2024/03/24 11:11:22 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"installedProviders":{"registry.terraform.io/hashicorp/aws":"5.39.0"},"moduleId":"9aeefb3c-68f3-0e03-dc9f-ec6afc87bd36","providerRequirements":{"registry.terraform.io/-/aws":""}}}
+2024/03/24 11:11:25 provider_schema.go:109: PSS: adding local schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/hashicorp/aws): 0xc004371ab8
+2024/03/24 11:11:25 jobs.go:461: JOBS: Finishing job "6": "OpTypeObtainSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:25 jobs.go:321: JOBS: Dispatching next job "7" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:25 jobs.go:461: JOBS: Finishing job "7": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:25 jobs.go:321: JOBS: Dispatching next job "8" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:25 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:25 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:11:25 jobs.go:461: JOBS: Finishing job "8": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:25 jobs.go:321: JOBS: Dispatching next job "9" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:11:25 jobs.go:299: retrying on obj is nil
+2024/03/24 11:11:25 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:11:25 jobs.go:461: JOBS: Finishing job "9": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:11:25 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:01 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:12:01 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:12:01 rpc_logger.go:32: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars","languageId":"terraform-vars","version":1,"text":"\n# enable_vpc_module = \"false\"\n# enable_eks_cluster = \"false\"\n# enable_s3_cloudfront = \"false\"\naccess_key = \"AKIAV3B3RIUBV3YYVZCY\"\nsecret_key = \"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\"\nami_id_launch_template = \"ami-0ded8326293d3201b\"\navailability_zone      = \"ap-south-1\"\ncluster_name = \"eks-cluster-tf\"\nredis_cluster_name = \"Redis-Cluster\"\nenvironment = \"test\"\nauth_token = \"IhOY1827BX7sprVp\"\nvpc_name = \"smoke-uat-vpc\""}}
+2024/03/24 11:12:01 did_open.go:56: opened module: /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "10": "OpTypeGetTerraformVersion" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "11": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "12": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:01 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "13": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:12:01 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:01 jobs.go:321: JOBS: Dispatching next job "10" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeGetTerraformVersion" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "14": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "15": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:01 jobs.go:140: JOBS: Enqueueing new job "16": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:12:01 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:12:01 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:12:01 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:12:01 opts.go:215: Received request batch of size 1 (qlen=1)
+2024/03/24 11:12:01 opts.go:215: Received request batch of size 1 (qlen=2)
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "10": "OpTypeGetTerraformVersion" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "11" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "11": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "12" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 module_calls.go:64: indexing declared module calls for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts": 0
+2024/03/24 11:12:02 jobs.go:140: JOBS: Enqueueing new job "17": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:02 jobs.go:140: JOBS: Enqueueing new job "18": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:02 jobs.go:140: JOBS: Enqueueing new job "19": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:02 jobs.go:140: JOBS: Enqueueing new job "20": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:02 jobs.go:140: JOBS: Enqueueing new job "21": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "12": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: ["17" "19" "20"])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "14" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "13" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "13": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "14": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "15" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "15": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "16" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "16": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts: state not changed, deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "17" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "17": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "18" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:12:02 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"installedProviders":{"registry.terraform.io/hashicorp/aws":"5.39.0"},"moduleId":"9aeefb3c-68f3-0e03-dc9f-ec6afc87bd36","providerRequirements":{"registry.terraform.io/-/aws":""},"tfVersion":"1.5.2"}}
+2024/03/24 11:12:02 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/03/24 11:12:02 opts.go:215: Received response for callback "2"
+2024/03/24 11:12:02 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/03/24 11:12:02 opts.go:215: Received response for callback "3"
+2024/03/24 11:12:02 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/03/24 11:12:02 opts.go:215: Received request batch of size 1 (qlen=3)
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "18": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "19" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "19": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "20" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "20": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=3)
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=2)
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=1)
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:12:02 jobs.go:321: JOBS: Dispatching next job "21" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 1): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 5): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"]}
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 3): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 4): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 5): {"v":0,"discovered_version":"1.5.2"}
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [190.633µs elapsed]
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 2): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 3): null
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [385.302µs elapsed]
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 1): [{"name":"access_key","kind":15,"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":35}},"selectionRange":{"start":{"line":4,"character":0},"end":{"line":4,"character":35}}},{"name":"secret_key","kind":15,"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":55}},"selectionRange":{"start":{"line":5,"character":0},"end":{"line":5,"character":55}}},{"name":"ami_id_launch_template","kind":15,"range":{"start":{"line":6,"character":0},"end":{"line":6,"character":48}},"selectionRange":{"start":{"line":6,"character":0},"end":{"line":6,"character":48}}},{"name":"availability_zone","kind":15,"range":{"start":{"line":7,"character":0},"end":{"line":7,"character":37}},"selectionRange":{"start":{"line":7,"character":0},"end":{"line":7,"character":37}}},{"name":"cluster_name","kind":15,"range":{"start":{"line":8,"character":0},"end":{"line":8,"character":31}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":8,"character":31}}},{"name":"redis_cluster_name","kind":15,"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":36}},"selectionRange":{"start":{"line":9,"character":0},"end":{"line":9,"character":36}}},{"name":"environment","kind":15,"range":{"start":{"line":10,"character":0},"end":{"line":10,"character":20}},"selectionRange":{"start":{"line":10,"character":0},"end":{"line":10,"character":20}}},{"name":"auth_token","kind":15,"range":{"start":{"line":11,"character":0},"end":{"line":11,"character":31}},"selectionRange":{"start":{"line":11,"character":0},"end":{"line":11,"character":31}}},{"name":"vpc_name","kind":15,"range":{"start":{"line":12,"character":0},"end":{"line":12,"character":26}},"selectionRange":{"start":{"line":12,"character":0},"end":{"line":12,"character":26}}}]
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [1.013150051s elapsed]
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 4): []
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [742.49µs elapsed]
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 2): {"data":[4,0,10,9,0,0,13,22,13,0,1,0,10,9,0,0,13,42,13,0,1,0,22,9,0,0,25,23,13,0,1,0,17,9,0,0,25,12,13,0,1,0,12,9,0,0,15,16,13,0,1,0,18,9,0,0,21,15,13,0,1,0,11,9,0,0,14,6,13,0,1,0,10,9,0,0,13,18,13,0,1,0,8,9,0,0,11,15,13,0]}
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [993.26µs elapsed]
+2024/03/24 11:12:02 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:12:02 opts.go:215: Received response for callback "4"
+2024/03/24 11:12:02 opts.go:215: Posting server call "workspace/semanticTokens/refresh" 
+2024/03/24 11:12:02 opts.go:215: Received response for callback "5"
+2024/03/24 11:12:02 jobs.go:461: JOBS: Finishing job "21": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:12:02 jobs.go:299: retrying on obj is nil
+2024/03/24 11:12:02 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/03/24 11:12:02 opts.go:215: Received response for callback "6"
+2024/03/24 11:12:02 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/03/24 11:12:02 opts.go:215: Received response for callback "7"
+2024/03/24 11:12:02 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/03/24 11:12:02 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 6): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"]}
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 6): {"v":0,"discovered_version":"1.5.2"}
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [103.154µs elapsed]
+2024/03/24 11:12:02 opts.go:215: Received response for callback "8"
+2024/03/24 11:12:02 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 7): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:12:02 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 7): {"data":[4,0,10,9,0,0,13,22,13,0,1,0,10,9,0,0,13,42,13,0,1,0,22,9,0,0,25,23,13,0,1,0,17,9,0,0,25,12,13,0,1,0,12,9,0,0,15,16,13,0,1,0,18,9,0,0,21,15,13,0,1,0,11,9,0,0,14,6,13,0,1,0,10,9,0,0,13,18,13,0,1,0,8,9,0,0,11,15,13,0]}
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [352.216µs elapsed]
+2024/03/24 11:12:02 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:12:02 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:12:02 rpc_logger.go:32: Incoming request for "textDocument/hover" (ID 8): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"},"position":{"line":2,"character":6}}
+2024/03/24 11:12:02 hover.go:35: Looking for hover data at "terraform.tfvars" -> hcl.Pos{Line:3, Column:7, Byte:37}
+2024/03/24 11:12:02 hover.go:37: received hover data: (*lang.HoverData)(nil)
+2024/03/24 11:12:02 rpc_logger.go:48: Error for "textDocument/hover" (ID 8): [-32098] terraform.tfvars (3,7): position outside of any attribute name, value or block
+2024/03/24 11:12:02 opts.go:215: Completed 1 requests [352.82µs elapsed]
+[Error - 11:12:02] Request textDocument/hover failed.
+  Message: terraform.tfvars (3,7): position outside of any attribute name, value or block
+  Code: -32098 
+2024/03/24 11:13:05 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:05 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:05 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 9): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:13:05 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 9): []
+2024/03/24 11:13:05 opts.go:215: Completed 1 requests [259.192µs elapsed]
+2024/03/24 11:13:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:06 rpc_logger.go:32: Incoming request for "textDocument/hover" (ID 10): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"},"position":{"line":9,"character":20}}
+2024/03/24 11:13:06 hover.go:35: Looking for hover data at "terraform.tfvars" -> hcl.Pos{Line:10, Column:21, Byte:326}
+2024/03/24 11:13:06 hover.go:37: received hover data: (*lang.HoverData)(nil)
+2024/03/24 11:13:06 rpc_logger.go:48: Error for "textDocument/hover" (ID 10): [-32098] terraform.tfvars (10,21): position outside of any attribute name, value or block
+2024/03/24 11:13:06 opts.go:215: Completed 1 requests [473.292µs elapsed]
+[Error - 11:13:06] Request textDocument/hover failed.
+  Message: terraform.tfvars (10,21): position outside of any attribute name, value or block
+  Code: -32098 
+2024/03/24 11:13:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:06 rpc_logger.go:32: Incoming request for "textDocument/hover" (ID 11): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"},"position":{"line":2,"character":8}}
+2024/03/24 11:13:06 hover.go:35: Looking for hover data at "terraform.tfvars" -> hcl.Pos{Line:3, Column:9, Byte:39}
+2024/03/24 11:13:06 hover.go:37: received hover data: (*lang.HoverData)(nil)
+2024/03/24 11:13:06 rpc_logger.go:48: Error for "textDocument/hover" (ID 11): [-32098] terraform.tfvars (3,9): position outside of any attribute name, value or block
+2024/03/24 11:13:06 opts.go:215: Completed 1 requests [330.671µs elapsed]
+[Error - 11:13:06] Request textDocument/hover failed.
+  Message: terraform.tfvars (3,9): position outside of any attribute name, value or block
+  Code: -32098 
+2024/03/24 11:13:22 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:22 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:22 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 12): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:13:22 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 12): null
+2024/03/24 11:13:22 opts.go:215: Completed 1 requests [169.591µs elapsed]
+2024/03/24 11:13:23 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:23 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:23 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 13): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:13:23 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 13): []
+2024/03/24 11:13:23 opts.go:215: Completed 1 requests [370.335µs elapsed]
+2024/03/24 11:13:23 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:23 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:23 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 14): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:13:23 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 14): {"data":[4,0,10,9,0,0,13,22,13,0,1,0,10,9,0,0,13,42,13,0,1,0,22,9,0,0,25,23,13,0,1,0,17,9,0,0,25,12,13,0,1,0,12,9,0,0,15,16,13,0,1,0,18,9,0,0,21,15,13,0,1,0,11,9,0,0,14,6,13,0,1,0,10,9,0,0,13,18,13,0,1,0,8,9,0,0,11,15,13,0]}
+2024/03/24 11:13:23 opts.go:215: Completed 1 requests [1.035174ms elapsed]
+2024/03/24 11:13:28 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:13:28 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:13:28 opts.go:215: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2024/03/24 11:14:59 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:14:59 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:14:59 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 15): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:14:59 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 15): null
+2024/03/24 11:14:59 opts.go:215: Completed 1 requests [340.263µs elapsed]
+2024/03/24 11:15:00 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:00 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:00 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 16): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:15:00 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 16): []
+2024/03/24 11:15:00 opts.go:215: Completed 1 requests [226.559µs elapsed]
+2024/03/24 11:15:00 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:00 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:00 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 17): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:15:00 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 17): {"data":[4,0,10,9,0,0,13,22,13,0,1,0,10,9,0,0,13,42,13,0,1,0,22,9,0,0,25,23,13,0,1,0,17,9,0,0,25,12,13,0,1,0,12,9,0,0,15,16,13,0,1,0,18,9,0,0,21,15,13,0,1,0,11,9,0,0,14,6,13,0,1,0,10,9,0,0,13,18,13,0,1,0,8,9,0,0,11,15,13,0]}
+2024/03/24 11:15:00 opts.go:215: Completed 1 requests [434.364µs elapsed]
+2024/03/24 11:15:05 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:05 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:05 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 18): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:15:05 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 18): []
+2024/03/24 11:15:05 opts.go:215: Completed 1 requests [256.416µs elapsed]
+2024/03/24 11:15:11 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:11 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:11 rpc_logger.go:32: Incoming notification for "workspace/didChangeWatchedFiles": {"changes":[{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars","type":3}]}
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "22": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "23": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "24": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "25": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "26": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "27": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "22" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "22": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "23" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 module_calls.go:64: indexing declared module calls for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts": 0
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "28": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "29": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "30": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "31": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:140: JOBS: Enqueueing new job "32": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "23": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: ["28" "30" "31"])
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "25" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "24" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "24": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "25": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "26" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "26": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "27" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "27": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "28" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "28": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "29" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "29": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "30" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "30": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "31" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "31": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:321: JOBS: Dispatching next job "32" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:15:11 jobs.go:461: JOBS: Finishing job "32": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:15:11 jobs.go:299: retrying on obj is nil
+2024/03/24 11:15:11 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/03/24 11:15:11 opts.go:215: Received response for callback "9"
+2024/03/24 11:15:11 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/03/24 11:15:11 opts.go:215: Received response for callback "10"
+2024/03/24 11:15:11 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/03/24 11:15:11 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:11 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:11 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 19): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"]}
+2024/03/24 11:15:11 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 19): {"v":0,"discovered_version":"1.5.2"}
+2024/03/24 11:15:11 opts.go:215: Completed 1 requests [142.056µs elapsed]
+2024/03/24 11:15:11 opts.go:215: Received response for callback "11"
+2024/03/24 11:15:14 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:14 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:14 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 20): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:15:14 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 20): []
+2024/03/24 11:15:14 opts.go:215: Completed 1 requests [305.034µs elapsed]
+2024/03/24 11:15:47 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:15:47 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:15:47 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 21): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:15:47 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 21): []
+2024/03/24 11:15:47 opts.go:215: Completed 1 requests [300.467µs elapsed]
+2024/03/24 11:16:05 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:05 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:05 rpc_logger.go:32: Incoming notification for "textDocument/didChange": {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars","version":2},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":12,"character":26}},"rangeLength":422,"text":""}]}
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "33": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "34": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "35": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "36": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "37": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "38": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "33" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "33": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "34" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 module_calls.go:64: indexing declared module calls for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts": 0
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "39": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "40": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "41": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "42": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:140: JOBS: Enqueueing new job "43": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "34": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: ["39" "41" "42"])
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "36" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "36": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "37" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "35" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "37": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "38" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "38": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "35": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "39" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "39": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "40" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "40": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "41" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:05 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:05 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "41": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "42" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "42": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:321: JOBS: Dispatching next job "43" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 22): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:05 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 22): []
+2024/03/24 11:16:05 opts.go:215: Completed 1 requests [16.310207ms elapsed]
+2024/03/24 11:16:05 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:05 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:05 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:05 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 23): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:05 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 23): null
+2024/03/24 11:16:05 opts.go:215: Completed 1 requests [324.934µs elapsed]
+2024/03/24 11:16:05 jobs.go:461: JOBS: Finishing job "43": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:05 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:05 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/03/24 11:16:05 opts.go:215: Received response for callback "12"
+2024/03/24 11:16:05 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/03/24 11:16:05 opts.go:215: Received response for callback "13"
+2024/03/24 11:16:05 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/03/24 11:16:05 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:05 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:05 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 24): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"]}
+2024/03/24 11:16:05 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 24): {"v":0,"discovered_version":"1.5.2"}
+2024/03/24 11:16:05 opts.go:215: Completed 1 requests [267.433µs elapsed]
+2024/03/24 11:16:05 opts.go:215: Received response for callback "14"
+2024/03/24 11:16:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:06 rpc_logger.go:32: Incoming notification for "workspace/didChangeWatchedFiles": {"changes":[{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars","type":1}]}
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "44": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "45": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "46": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "47": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "48": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "49": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "44" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "44": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "45" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 module_calls.go:64: indexing declared module calls for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts": 0
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "50": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "51": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "52": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "53": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:140: JOBS: Enqueueing new job "54": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "45": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: ["50" "52" "53"])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "47" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "46" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "46": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "47": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "48" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "48": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "49" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "49": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "50" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "50": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "51" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "51": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "52" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "52": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "53" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "53": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 jobs.go:321: JOBS: Dispatching next job "54" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:06 jobs.go:461: JOBS: Finishing job "54": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:06 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 25): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:06 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:06 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 25): []
+2024/03/24 11:16:06 opts.go:215: Completed 1 requests [208.59µs elapsed]
+2024/03/24 11:16:06 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/03/24 11:16:06 opts.go:215: Received response for callback "15"
+2024/03/24 11:16:06 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/03/24 11:16:06 opts.go:215: Received response for callback "16"
+2024/03/24 11:16:06 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/03/24 11:16:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:06 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 26): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"]}
+2024/03/24 11:16:06 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 26): {"v":0,"discovered_version":"1.5.2"}
+2024/03/24 11:16:06 opts.go:215: Completed 1 requests [179.951µs elapsed]
+2024/03/24 11:16:06 opts.go:215: Received response for callback "17"
+2024/03/24 11:16:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:06 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 27): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:06 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 27): {"data":[]}
+2024/03/24 11:16:06 opts.go:215: Completed 1 requests [160.211µs elapsed]
+2024/03/24 11:16:10 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:10 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:10 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 28): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:10 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 28): []
+2024/03/24 11:16:10 opts.go:215: Completed 1 requests [214.46µs elapsed]
+2024/03/24 11:16:10 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:10 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:10 rpc_logger.go:32: Incoming notification for "textDocument/didChange": {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars","version":3},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"rangeLength":0,"text":"\n# enable_vpc_module = \"false\"\n# enable_eks_cluster = \"false\"\n# enable_s3_cloudfront = \"false\"\naccess_key = \"AKIAV3B3RIUBV3YYVZCY\"\nsecret_key = \"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\"\nami_id_launch_template = \"ami-0ded8326293d3201b\"\navailability_zone      = \"ap-south-1\"\ncluster_name = \"eks-cluster-tf\"\nredis_cluster_name = \"Redis-Cluster\"\nenvironment = \"test\"\nauth_token = \"IhOY1827BX7sprVp\"\nvpc_name = \"smoke-uat-vpc\""}]}
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "55": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "56": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "57": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: false)
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "58": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "59": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "60": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "55" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "55": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "56" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 module_calls.go:64: indexing declared module calls for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts": 0
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "61": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "62": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "63": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "64": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:140: JOBS: Enqueueing new job "65": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (IsDirOpen: true, IgnoreState: true)
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "56": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: ["61" "63" "64"])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "58" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "57" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "57": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "58": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "59" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "59": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "60" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "60": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "61" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "61": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "62" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "62": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "63" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "63": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "64" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "64": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 jobs.go:321: JOBS: Dispatching next job "65" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"}
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 provider_schema.go:306: PSS: getting provider schema (/home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts, registry.terraform.io/-/aws, )
+2024/03/24 11:16:10 jobs.go:461: JOBS: Finishing job "65": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"} (err = %!s(<nil>), deferredJobs: [])
+2024/03/24 11:16:10 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:10 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/03/24 11:16:10 opts.go:215: Received response for callback "18"
+2024/03/24 11:16:10 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/03/24 11:16:10 opts.go:215: Received response for callback "19"
+2024/03/24 11:16:10 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/03/24 11:16:10 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:10 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:10 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 29): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts"]}
+2024/03/24 11:16:10 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 29): {"v":0,"discovered_version":"1.5.2"}
+2024/03/24 11:16:10 opts.go:215: Completed 1 requests [175.955µs elapsed]
+2024/03/24 11:16:10 opts.go:215: Received response for callback "20"
+2024/03/24 11:16:11 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:11 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:11 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 30): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:11 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 30): []
+2024/03/24 11:16:11 opts.go:215: Completed 1 requests [319.349µs elapsed]
+2024/03/24 11:16:11 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:11 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:11 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 31): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:11 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 31): {"data":[4,0,10,9,0,0,13,22,13,0,1,0,10,9,0,0,13,42,13,0,1,0,22,9,0,0,25,23,13,0,1,0,17,9,0,0,25,12,13,0,1,0,12,9,0,0,15,16,13,0,1,0,18,9,0,0,21,15,13,0,1,0,11,9,0,0,14,6,13,0,1,0,10,9,0,0,13,18,13,0,1,0,8,9,0,0,11,15,13,0]}
+2024/03/24 11:16:11 opts.go:215: Completed 1 requests [577.125µs elapsed]
+2024/03/24 11:16:11 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:11 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:11 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 32): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:11 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 32): [{"name":"access_key","kind":15,"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":35}},"selectionRange":{"start":{"line":4,"character":0},"end":{"line":4,"character":35}}},{"name":"secret_key","kind":15,"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":55}},"selectionRange":{"start":{"line":5,"character":0},"end":{"line":5,"character":55}}},{"name":"ami_id_launch_template","kind":15,"range":{"start":{"line":6,"character":0},"end":{"line":6,"character":48}},"selectionRange":{"start":{"line":6,"character":0},"end":{"line":6,"character":48}}},{"name":"availability_zone","kind":15,"range":{"start":{"line":7,"character":0},"end":{"line":7,"character":37}},"selectionRange":{"start":{"line":7,"character":0},"end":{"line":7,"character":37}}},{"name":"cluster_name","kind":15,"range":{"start":{"line":8,"character":0},"end":{"line":8,"character":31}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":8,"character":31}}},{"name":"redis_cluster_name","kind":15,"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":36}},"selectionRange":{"start":{"line":9,"character":0},"end":{"line":9,"character":36}}},{"name":"environment","kind":15,"range":{"start":{"line":10,"character":0},"end":{"line":10,"character":20}},"selectionRange":{"start":{"line":10,"character":0},"end":{"line":10,"character":20}}},{"name":"auth_token","kind":15,"range":{"start":{"line":11,"character":0},"end":{"line":11,"character":31}},"selectionRange":{"start":{"line":11,"character":0},"end":{"line":11,"character":31}}},{"name":"vpc_name","kind":15,"range":{"start":{"line":12,"character":0},"end":{"line":12,"character":26}},"selectionRange":{"start":{"line":12,"character":0},"end":{"line":12,"character":26}}}]
+2024/03/24 11:16:11 opts.go:215: Completed 1 requests [327.993µs elapsed]
+2024/03/24 11:16:11 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:11 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:11 rpc_logger.go:32: Incoming notification for "textDocument/didSave": {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:12 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:12 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:12 rpc_logger.go:32: Incoming notification for "workspace/didChangeWatchedFiles": {"changes":[{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e/qkIT.tfvars","type":1},{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars","type":2}]}
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "66": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "67": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "68": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: false)
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "69": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "70": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "71": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 did_change_watched_files.go:159: document is open - ignoring event for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "66" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "66": "OpTypeParseModuleConfiguration" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "67" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 document_change.go:112: loading module metadata returned error: /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found
+2024/03/24 11:16:12 document_change.go:117: decoding declared module calls for "file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e" failed: /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "72": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "73": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "74": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "75": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:140: JOBS: Enqueueing new job "76": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (IsDirOpen: false, IgnoreState: true)
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "67": "OpTypeLoadModuleMetadata" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: ["72" "74" "75"])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "68" (scheduler prio: -1, job prio: -1, isDirOpen: false): "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "68": "OpTypeGetModuleDataFromRegistry" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "69" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "69": "OpTypeParseVariables" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "70" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "70": "OpTypeSchemaVarsValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "71" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "71": "OpTypeDecodeVarsReferences" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "72" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "72": "OpTypePreloadEmbeddedSchema" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "73" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "73": "OpTypeSchemaModuleValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "74" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "74": "OpTypeDecodeReferenceTargets" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "75" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "75": "OpTypeDecodeReferenceOrigins" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:321: JOBS: Dispatching next job "76" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"}
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 jobs.go:461: JOBS: Finishing job "76": "OpTypeReferenceValidation" for {"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e"} (err = /home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/~/vscode-root/User/History/-61b3b64e: module not found, deferredJobs: [])
+2024/03/24 11:16:12 jobs.go:299: retrying on obj is nil
+2024/03/24 11:16:12 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:12 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:12 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 33): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:12 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 33): null
+2024/03/24 11:16:12 opts.go:215: Completed 1 requests [178.545µs elapsed]
+2024/03/24 11:16:16 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:16 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:16 rpc_logger.go:32: Incoming request for "textDocument/hover" (ID 34): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"},"position":{"line":1,"character":3}}
+2024/03/24 11:16:16 hover.go:35: Looking for hover data at "terraform.tfvars" -> hcl.Pos{Line:2, Column:4, Byte:4}
+2024/03/24 11:16:16 hover.go:37: received hover data: (*lang.HoverData)(nil)
+2024/03/24 11:16:16 rpc_logger.go:48: Error for "textDocument/hover" (ID 34): [-32098] terraform.tfvars (2,4): position outside of any attribute name, value or block
+2024/03/24 11:16:16 opts.go:215: Completed 1 requests [327.217µs elapsed]
+[Error - 11:16:16] Request textDocument/hover failed.
+  Message: terraform.tfvars (2,4): position outside of any attribute name, value or block
+  Code: -32098 
+2024/03/24 11:16:27 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:27 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:27 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 35): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:27 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 35): null
+2024/03/24 11:16:27 opts.go:215: Completed 1 requests [124.991µs elapsed]
+2024/03/24 11:16:27 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:27 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:27 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 36): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:27 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 36): []
+2024/03/24 11:16:27 opts.go:215: Completed 1 requests [294.067µs elapsed]
+2024/03/24 11:16:27 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:27 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:27 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 37): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}
+2024/03/24 11:16:27 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 37): {"data":[4,0,10,9,0,0,13,22,13,0,1,0,10,9,0,0,13,42,13,0,1,0,22,9,0,0,25,23,13,0,1,0,17,9,0,0,25,12,13,0,1,0,12,9,0,0,15,16,13,0,1,0,18,9,0,0,21,15,13,0,1,0,11,9,0,0,14,6,13,0,1,0,10,9,0,0,13,18,13,0,1,0,8,9,0,0,11,15,13,0]}
+2024/03/24 11:16:27 opts.go:215: Completed 1 requests [616.575µs elapsed]
+2024/03/24 11:16:28 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:28 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:28 rpc_logger.go:32: Incoming request for "textDocument/hover" (ID 38): {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"},"position":{"line":6,"character":29}}
+2024/03/24 11:16:28 hover.go:35: Looking for hover data at "terraform.tfvars" -> hcl.Pos{Line:7, Column:30, Byte:216}
+2024/03/24 11:16:28 hover.go:37: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"_string_", Kind:0x2}, Range:hcl.Range{Filename:"terraform.tfvars", Start:hcl.Pos{Line:7, Column:26, Byte:212}, End:hcl.Pos{Line:7, Column:49, Byte:235}}}
+2024/03/24 11:16:28 rpc_logger.go:53: Response to "textDocument/hover" (ID 38): {"contents":{"kind":"markdown","value":"_string_"},"range":{"start":{"line":6,"character":25},"end":{"line":6,"character":48}}}
+2024/03/24 11:16:28 opts.go:215: Completed 1 requests [340.015µs elapsed]
+2024/03/24 11:16:47 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/03/24 11:16:47 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/03/24 11:16:47 rpc_logger.go:32: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/user/my-files/terraform-yt-20230710T043557Z-001/terraform-scripts/terraform.tfvars"}}

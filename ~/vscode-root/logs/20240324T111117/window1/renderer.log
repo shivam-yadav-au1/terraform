@@ -1,0 +1,25 @@
+2024-03-24 11:11:21.150 [info] [perf] Render performance baseline is 66ms
+2024-03-24 11:12:02.519 [error] terraform.tfvars (3,7): position outside of any attribute name, value or block: Error: terraform.tfvars (3,7): position outside of any attribute name, value or block
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540125
+	at re (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540419)
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535203
+	at Immediate.<anonymous> (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535223)
+	at process.processImmediate (node:internal/timers:466:21)
+2024-03-24 11:13:06.099 [error] terraform.tfvars (10,21): position outside of any attribute name, value or block: Error: terraform.tfvars (10,21): position outside of any attribute name, value or block
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540125
+	at re (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540419)
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535203
+	at Immediate.<anonymous> (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535223)
+	at process.processImmediate (node:internal/timers:466:21)
+2024-03-24 11:13:06.431 [error] terraform.tfvars (3,9): position outside of any attribute name, value or block: Error: terraform.tfvars (3,9): position outside of any attribute name, value or block
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540125
+	at re (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540419)
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535203
+	at Immediate.<anonymous> (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535223)
+	at process.processImmediate (node:internal/timers:466:21)
+2024-03-24 11:16:16.541 [error] terraform.tfvars (2,4): position outside of any attribute name, value or block: Error: terraform.tfvars (2,4): position outside of any attribute name, value or block
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540125
+	at re (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:540419)
+	at /root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535203
+	at Immediate.<anonymous> (/root/.vscode/extensions/hashicorp.terraform-2.29.1-linux-x64/out/extension.js:2:535223)
+	at process.processImmediate (node:internal/timers:466:21)
