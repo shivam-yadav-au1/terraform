@@ -12,9 +12,9 @@ variable "private_subnet_cidrs" {
 }
 
 variable "vpc-cidr-range" {
-  type = string
+  type        = string
   description = "vpc-cidr"
-  default = "172.27.64.0/18"
+  default     = "172.27.64.0/18"
 }
 
 variable "availability-zones" {
@@ -46,26 +46,31 @@ variable "cluster_name" {
   type = string
 }
 
-variable "redis_cluster_name"{
+variable "redis_cluster_name" {
   type = string
 }
 
 variable "environment" {
   type = string
-  
+
 }
 
 variable "auth_token" {
-  type = string
+  type    = string
   default = ""
 }
 
-variable "vpc_name"{
-  type = string
+variable "vpc_name" {
+  type    = string
   default = "smoke-uat"
 }
 
-variable "ecs_ec2_server"{
-  type = string
+variable "ecs_ec2_server" {
+  type    = string
   default = "ECS-ec2-server"
+}
+
+variable "oidc_thumbprint_list" {
+  type = string
+  default = ""
 }

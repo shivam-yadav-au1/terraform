@@ -53,12 +53,14 @@ resource "aws_eks_cluster" "eks-cluster" {
   }
 
   access_config {
-    authentication_mode = "API_AND_CONFIG_MAP"
+    authentication_mode                         = "API_AND_CONFIG_MAP"
     bootstrap_cluster_creator_admin_permissions = true
   }
 
 
 }
+
+
 
 
 ############ IAM Role for EKS Node Group ###############
