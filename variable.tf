@@ -74,3 +74,11 @@ variable "oidc_thumbprint_list" {
   type = string
   default = ""
 }
+
+output "openid_connect_provider_arn" {
+  value = aws_iam_openid_connect_provider.cluster.arn
+}
+
+# output "aws_ekd_cluster_endpoint" {
+#   value =aws_eks_cluster.eks-cluster.endpoint
+# }

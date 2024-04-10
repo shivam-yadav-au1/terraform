@@ -5,3 +5,7 @@ data "http" "lbc_iam_policy" {
     Accept = "application/json"
   }
 }
+
+data "aws_eks_cluster_auth" "eks" {
+  name = aws_eks_cluster.eks-cluster.name
+}
