@@ -1,4 +1,5 @@
  resource "aws_elasticache_replication_group" "replication_group" {
+  count = var.enable_redis_cluster ? 1 : 0
   replication_group_id = "${var.redis_cluster_name}"
   node_type         = "cache.t3.micro"
   engine            = "redis"
@@ -6,13 +7,13 @@
   automatic_failover_enabled = true
   at_rest_encryption_enabled = true
   transit_encryption_enabled = true
-  auth_token  = var.auth_token != "" ? var.auth_token : null
+  auth_token  = var.redis_auth_token != "" ? var.redis_auth_token : null
   apply_immediately = true
   port              = 6379
   num_node_groups         = 1
   replicas_per_node_group = 2
   description = var.redis_cluster_name
-  subnet_group_name = "${aws_elasticache_subnet_group.test_subnet_group.name}"
+  subnet_group_name = "${aws_elasticache_subnet_group.redis_subnet_group.name}"
   security_group_ids = ["${aws_security_group.redis_sg.id}"]
   log_delivery_configuration {
   destination      = aws_cloudwatch_log_group.elastic_log_group.name
@@ -73,7 +74,7 @@ resource "aws_security_group" "redis_sg" {
 }
 
 
-resource "aws_elasticache_subnet_group" "test_subnet_group" {
+resource "aws_elasticache_subnet_group" "redis_subnet_group" {
   name       = "${var.redis_cluster_name}-subnet-group"
   subnet_ids = flatten(["${aws_subnet.vpc-tf-public-subnets.*.id}"])
   description = "${var.redis_cluster_name}-subnet-group"

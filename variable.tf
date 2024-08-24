@@ -44,6 +44,7 @@ variable "availability_zone" {
 
 variable "cluster_name" {
   type = string
+  default = "eks-cluster"
 }
 
 variable "redis_cluster_name" {
@@ -55,7 +56,7 @@ variable "environment" {
 
 }
 
-variable "auth_token" {
+variable "redis_auth_token" {
   type    = string
   default = ""
 }
@@ -70,6 +71,16 @@ variable "ecs_ec2_server" {
   default = "ECS-ec2-server"
 }
 
+variable "ecs_cluster_name" {
+  type = string
+  default = "ecs_cluster"
+}
+
+variable "enable_ecs_cluster" {
+  type = bool
+  default = false
+}
+
 variable "oidc_thumbprint_list" {
   type = string
   default = ""
@@ -77,6 +88,11 @@ variable "oidc_thumbprint_list" {
 
 output "openid_connect_provider_arn" {
   value = aws_iam_openid_connect_provider.cluster.arn
+}
+
+variable "enable_redis_cluster" {
+  type = bool
+  default = false
 }
 
 # output "aws_ekd_cluster_endpoint" {

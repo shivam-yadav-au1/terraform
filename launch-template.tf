@@ -35,20 +35,20 @@ resource "aws_launch_template" "cluster_worker_node_launch_config" {
   network_interfaces {
     security_groups = [aws_security_group.security_group_ecs.id]
   }
-  user_data = base64encode(<<-EOF
-MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="==7561478f-5b81-4e9d-9db6-aec8f463d2ab=="
+#   user_data = base64encode(<<-EOF
+# MIME-Version: 1.0
+# Content-Type: multipart/mixed; boundary="==7561478f-5b81-4e9d-9db6-aec8f463d2ab=="
 
 
---==7561478f-5b81-4e9d-9db6-aec8f463d2ab==
-Content-Type: text/x-shellscript; charset="us-ascii"
+# --==7561478f-5b81-4e9d-9db6-aec8f463d2ab==
+# Content-Type: text/x-shellscript; charset="us-ascii"
 
 
-#!/bin/bash
-sed -i '/^KUBELET_EXTRA_ARGS=/a KUBELET_EXTRA_ARGS+=" --register-with-taints=author=shishir:NoSchedule,creator=shishir:NoSchedule"' /etc/eks/bootstrap.sh
+# #!/bin/bash
+# sed -i '/^KUBELET_EXTRA_ARGS=/a KUBELET_EXTRA_ARGS+=" --register-with-taints=author=shishir:NoSchedule,creator=shishir:NoSchedule"' /etc/eks/bootstrap.sh
 
 
---==7561478f-5b81-4e9d-9db6-aec8f463d2ab==--\
-  EOF
-  )
+# --==7561478f-5b81-4e9d-9db6-aec8f463d2ab==--\
+#   EOF
+#   )
 }

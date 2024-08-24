@@ -1,11 +1,11 @@
 resource "aws_ecs_cluster" "ecs_cluster" {
- name = "my-ecs-cluster"
+ count = var.enable_ecs_cluster ? 1 : 0
+ name = var.ecs_cluster_name
 }
 
 
 resource "aws_ecs_capacity_provider" "ecs_capacity_provider" {
- name = "test1"
-
+ name = "${var.ecs_cluster_name}_ecs_capacity_provider"
  auto_scaling_group_provider {
    auto_scaling_group_arn = aws_autoscaling_group.ecs_asg.arn
 
@@ -19,16 +19,16 @@ resource "aws_ecs_capacity_provider" "ecs_capacity_provider" {
 }
 
 
-resource "aws_ecs_cluster_capacity_providers" "example" {
- cluster_name = aws_ecs_cluster.ecs_cluster.name
-
- capacity_providers = [aws_ecs_capacity_provider.ecs_capacity_provider.name]
+resource "aws_ecs_cluster_capacity_providers" "ecs_cluster_provider" {
+  cluster_name = aws_ecs_cluster.ecs_cluster[0].name
+  capacity_providers = [aws_ecs_capacity_provider.ecs_capacity_provider.name]
 
  default_capacity_provider_strategy {
    base              = 1
    weight            = 100
    capacity_provider = aws_ecs_capacity_provider.ecs_capacity_provider.name
  }
+ depends_on = [ aws_ecs_cluster.ecs_cluster ]
 }
 
 resource "aws_ecs_task_definition" "ecs_task_definition" {
