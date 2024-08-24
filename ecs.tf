@@ -20,6 +20,7 @@ resource "aws_ecs_capacity_provider" "ecs_capacity_provider" {
 
 
 resource "aws_ecs_cluster_capacity_providers" "ecs_cluster_provider" {
+  count = var.enable_ecs_cluster ? 1 : 0
   cluster_name = aws_ecs_cluster.ecs_cluster[0].name
   capacity_providers = [aws_ecs_capacity_provider.ecs_capacity_provider.name]
 
