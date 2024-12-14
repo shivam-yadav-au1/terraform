@@ -39,6 +39,6 @@ resource "helm_release" "alb-controller" {
 
  set {
      name  = "clusterName"
-     value = aws_eks_cluster.eks-cluster.name
+     value = var.enable_eks_cluster ? aws_eks_cluster.eks-cluster[0].name : null
  }
  }

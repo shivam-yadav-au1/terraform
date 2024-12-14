@@ -87,10 +87,15 @@ variable "oidc_thumbprint_list" {
 }
 
 output "openid_connect_provider_arn" {
-  value = aws_iam_openid_connect_provider.cluster.arn
+  value = var.enable_eks_cluster ? aws_iam_openid_connect_provider.cluster[0].arn : null
 }
 
 variable "enable_redis_cluster" {
+  type = bool
+  default = false
+}
+
+variable "enable_eks_cluster"{
   type = bool
   default = false
 }
